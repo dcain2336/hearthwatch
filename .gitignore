@@ -1,0 +1,4 @@
+demo/server.log
+demo/server.pid
+__pycache__/
+*.pyc

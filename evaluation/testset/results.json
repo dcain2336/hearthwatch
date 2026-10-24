@@ -1,0 +1,44 @@
+{
+  "hits": 4,
+  "misses": 0,
+  "false_positives": 0,
+  "recall": 1.0,
+  "scenes": [
+    {
+      "file": "walk.mp4",
+      "expected": "presence",
+      "verdict": "HIT",
+      "detail": "first seen frame 45, latency 10 frames"
+    },
+    {
+      "file": "fall.mp4",
+      "expected": "fall_like",
+      "verdict": "HIT",
+      "detail": "first seen frame 124, latency 4 frames"
+    },
+    {
+      "file": "package.mp4",
+      "expected": "left_object",
+      "verdict": "HIT",
+      "detail": "first seen frame 135, latency -10 frames"
+    },
+    {
+      "file": "stove.mp4",
+      "expected": "stove_glow",
+      "verdict": "HIT",
+      "detail": "first seen frame 80, latency 5 frames"
+    },
+    {
+      "file": "empty.mp4",
+      "expected": null,
+      "verdict": "PASS (no false positives)",
+      "detail": "reported=[]"
+    },
+    {
+      "file": "lighting.mp4",
+      "expected": null,
+      "verdict": "PASS (no false positives)",
+      "detail": "reported=[]"
+    }
+  ]
+}

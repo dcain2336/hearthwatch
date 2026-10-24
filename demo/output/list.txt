@@ -1,0 +1,8 @@
+file '/home/hatch/workspace/goals/hackathon-entry-campaign/files/opencv-ai-competition/demo/output/seg_s1.mp4'
+file '/home/hatch/workspace/goals/hackathon-entry-campaign/files/opencv-ai-competition/demo/output/seg_s2.mp4'
+file '/home/hatch/workspace/goals/hackathon-entry-campaign/files/opencv-ai-competition/demo/output/seg_s3.mp4'
+file '/home/hatch/workspace/goals/hackathon-entry-campaign/files/opencv-ai-competition/demo/output/seg_s4.mp4'
+file '/home/hatch/workspace/goals/hackathon-entry-campaign/files/opencv-ai-competition/demo/output/seg_s5.mp4'
+file '/home/hatch/workspace/goals/hackathon-entry-campaign/files/opencv-ai-competition/demo/output/seg_s6.mp4'
+file '/home/hatch/workspace/goals/hackathon-entry-campaign/files/opencv-ai-competition/demo/output/seg_s7.mp4'
+file '/home/hatch/workspace/goals/hackathon-entry-campaign/files/opencv-ai-competition/demo/output/seg_s8.mp4'

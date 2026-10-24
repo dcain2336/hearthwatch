@@ -1,0 +1,5 @@
+# Pinned dependencies for Hearthwatch.
+# OpenCV 5 is a competition requirement ("use OpenCV 5"), so the
+# major version is pinned exactly, not left floating.
+opencv-python==5.0.0.93
+numpy==2.5.4

@@ -1,0 +1,56 @@
+[
+  {
+    "file": "walk.mp4",
+    "event": "presence",
+    "frames": [
+      35,
+      180
+    ],
+    "note": "Empty room, then a tall rectangle walks across and stands."
+  },
+  {
+    "file": "fall.mp4",
+    "event": "fall_like",
+    "frames": [
+      120,
+      130
+    ],
+    "note": "Walker enters, stands, collapses to a low wide shape, stays down."
+  },
+  {
+    "file": "package.mp4",
+    "event": "left_object",
+    "frames": [
+      145,
+      180
+    ],
+    "note": "Walker leaves a small box behind and exits; box stays."
+  },
+  {
+    "file": "stove.mp4",
+    "event": "stove_glow",
+    "frames": [
+      75,
+      140
+    ],
+    "note": "Orange-red glow appears in the stove zone and stays."
+  },
+  {
+    "file": "empty.mp4",
+    "event": null,
+    "frames": [
+      0,
+      120
+    ],
+    "note": "Empty room. Any event here is a false positive."
+  },
+  {
+    "file": "lighting.mp4",
+    "event": null,
+    "frames": [
+      0,
+      120
+    ],
+    "note": "Global lighting change only. Motion here is a false positive."
+  }
+]

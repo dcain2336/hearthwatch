@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L9,3 L0,6 Z" fill="#335"/></marker></defs>
+<rect x="20" y="30" width="170" height="90" fill="#eef4ff" stroke="#335" stroke-width="2" rx="8"/>
+<text x="105" y="54" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold">Camera feed</text>
+<text x="105" y="76" text-anchor="middle" font-family="sans-serif" font-size="11">Household camera</text>
+<text x="105" y="94" text-anchor="middle" font-family="sans-serif" font-size="11">640x360, ~10 fps</text>
+<text x="105" y="112" text-anchor="middle" font-family="sans-serif" font-size="11">or test-scene video</text>
+
+<rect x="230" y="30" width="200" height="90" fill="#eef4ff" stroke="#335" stroke-width="2" rx="8"/>
+<text x="330" y="54" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold">Perception (OpenCV 5)</text>
+<text x="330" y="76" text-anchor="middle" font-family="sans-serif" font-size="11">MOG2 motion</text>
+<text x="330" y="94" text-anchor="middle" font-family="sans-serif" font-size="11">Contours + HSV glow</text>
+<text x="330" y="112" text-anchor="middle" font-family="sans-serif" font-size="11">Centroid tracking</text>
+
+<rect x="470" y="30" width="200" height="90" fill="#eef4ff" stroke="#335" stroke-width="2" rx="8"/>
+<text x="570" y="54" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold">Agent loop</text>
+<text x="570" y="76" text-anchor="middle" font-family="sans-serif" font-size="11">Risk scoring</text>
+<text x="570" y="94" text-anchor="middle" font-family="sans-serif" font-size="11">Action tiers</text>
+<text x="570" y="112" text-anchor="middle" font-family="sans-serif" font-size="11">Re-observation</text>
+
+<rect x="700" y="30" width="170" height="90" fill="#eef4ff" stroke="#335" stroke-width="2" rx="8"/>
+<text x="785" y="54" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold">Household</text>
+<text x="785" y="76" text-anchor="middle" font-family="sans-serif" font-size="11">Open alerts</text>
+<text x="785" y="94" text-anchor="middle" font-family="sans-serif" font-size="11">Acknowledge</text>
+<text x="785" y="112" text-anchor="middle" font-family="sans-serif" font-size="11">False-alarm feedback</text>
+
+<rect x="230" y="170" width="200" height="90" fill="#eef4ff" stroke="#335" stroke-width="2" rx="8"/>
+<text x="330" y="194" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold">Event store (in-memory)</text>
+<text x="330" y="216" text-anchor="middle" font-family="sans-serif" font-size="11">Events + alert states</text>
+<text x="330" y="234" text-anchor="middle" font-family="sans-serif" font-size="11">Thresholds</text>
+<text x="330" y="252" text-anchor="middle" font-family="sans-serif" font-size="11">Feedback history</text>
+
+<rect x="470" y="170" width="200" height="90" fill="#eef4ff" stroke="#335" stroke-width="2" rx="8"/>
+<text x="570" y="194" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold">Demo server (stdlib)</text>
+<text x="570" y="216" text-anchor="middle" font-family="sans-serif" font-size="11">Single-page UI</text>
+<text x="570" y="234" text-anchor="middle" font-family="sans-serif" font-size="11">/api/run, /api/scenes</text>
+<text x="570" y="252" text-anchor="middle" font-family="sans-serif" font-size="11">Annotated video out</text>
+
+<rect x="700" y="170" width="170" height="90" fill="#eef4ff" stroke="#335" stroke-width="2" rx="8"/>
+<text x="785" y="194" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold">AWS path (sketched)</text>
+<text x="785" y="216" text-anchor="middle" font-family="sans-serif" font-size="11">ECS Fargate + ALB</text>
+<text x="785" y="234" text-anchor="middle" font-family="sans-serif" font-size="11">Same container</text>
+<text x="785" y="252" text-anchor="middle" font-family="sans-serif" font-size="11">Not yet executed*</text>
+
+<line x1="190" y1="75" x2="230" y2="75" stroke="#335" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="210" y="69" text-anchor="middle" font-family="sans-serif" font-size="11">frames</text>
+
+<line x1="430" y1="75" x2="470" y2="75" stroke="#335" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="450" y="69" text-anchor="middle" font-family="sans-serif" font-size="11">detections</text>
+
+<line x1="670" y1="75" x2="700" y2="75" stroke="#335" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="685" y="69" text-anchor="middle" font-family="sans-serif" font-size="11">alerts</text>
+
+<line x1="785" y1="120" x2="570" y2="30" stroke="#335" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="677" y="69" text-anchor="middle" font-family="sans-serif" font-size="11">feedback</text>
+
+<line x1="570" y1="120" x2="330" y2="170" stroke="#335" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="450" y="139" text-anchor="middle" font-family="sans-serif" font-size="11">events</text>
+
+<line x1="670" y1="75" x2="470" y2="215" stroke="#335" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="570" y="139" text-anchor="middle" font-family="sans-serif" font-size="11">status</text>
+
+<line x1="670" y1="215" x2="700" y2="215" stroke="#335" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="685" y="209" text-anchor="middle" font-family="sans-serif" font-size="11">deploy when account exists</text>
+
+<text x="20" y="300" font-family="sans-serif" font-size="11" fill="#555">* AWS execution needs an account; a standard account needs a card on file, which the operator does not file. See aws-deploy/ECS-DEPLOY.md.</text>
+</svg>
